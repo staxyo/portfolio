@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon CV & Portfolio</title>
+    <meta
+      name="description"
+      content="CV et portfolio personnel présentant mon parcours, mes compétences et mes projets."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <div>
+          <h1>Ton Nom</h1>
+          <p class="subtitle">Ton poste cible • Ville, Pays</p>
+        </div>
+        <nav class="main-nav">
+          <a href="#apropos">À propos</a>
+          <a href="#competences">Compétences</a>
+          <a href="#experience">Expérience</a>
+          <a href="#projets">Projets</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero / Présentation -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="badge">Disponible pour de nouvelles opportunités</p>
+            <h2>Développeur / Intégrateur passionné par le web moderne.</h2>
+            <p class="hero-text">
+              Quelques lignes pour te présenter : ton profil, ce que tu aimes
+              faire et ce que tu recherches (stage, alternance, CDI, etc.).
+            </p>
+            <div class="hero-actions">
+              <a href="#projets" class="btn primary">Voir mes projets</a>
+              <a href="#contact" class="btn secondary">Me contacter</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h3>Infos rapides</h3>
+            <ul>
+              <li><span>Nom :</span> Ton Nom</li>
+              <li><span>Poste :</span> Intitulé de ton poste cible</li>
+              <li><span>Localisation :</span> Ville, Pays</li>
+              <li><span>Email :</span> ton.email@example.com</li>
+              <li><span>Téléphone :</span> 06 00 00 00 00</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- À propos -->
+      <section id="apropos" class="section">
+        <div class="container">
+          <h2>À propos de moi</h2>
+          <p>
+            Texte de présentation plus détaillé : ton parcours, ta formation,
+            tes centres d’intérêt, ta façon de travailler, etc. Tu peux parler
+            de ton projet professionnel et de ce qui te motive.
+          </p>
+        </div>
+      </section>
+
+      <!-- Compétences -->
+      <section id="competences" class="section section-alt">
+        <div class="container">
+          <h2>Compétences</h2>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>Langages & Web</h3>
+              <ul>
+                <li>HTML5 / CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive design</li>
+              </ul>
+            </div>
+            <div class="skill-card">
+              <h3>Frameworks & Outils</h3>
+              <ul>
+                <li>Git / GitHub</li>
+                <li>VS Code</li>
+                <li>Autres outils…</li>
+              </ul>
+            </div>
+            <div class="skill-card">
+              <h3>Soft skills</h3>
+              <ul>
+                <li>Travail en équipe</li>
+                <li>Autonomie</li>
+                <li>Capacité d’adaptation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Expérience -->
+      <section id="experience" class="section">
+        <div class="container">
+          <h2>Expérience</h2>
+          <div class="timeline">
+            <article class="timeline-item">
+              <h3>Poste / Stage 1</h3>
+              <p class="timeline-meta">Entreprise • Date de début – Date de fin</p>
+              <p>
+                Brève description de tes missions principales, des technologies
+                utilisées et de ce que tu as appris.
+              </p>
+            </article>
+            <article class="timeline-item">
+              <h3>Poste / Stage 2</h3>
+              <p class="timeline-meta">Entreprise • Date de début – Date de fin</p>
+              <p>
+                Idem : raconte ce que tu as réalisé, en mettant en avant les
+                résultats concrets.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projets -->
+      <section id="projets" class="section section-alt">
+        <div class="container">
+          <h2>Projets</h2>
+          <div class="projects-grid">
+            <article class="project-card">
+              <h3>Projet 1</h3>
+              <p>
+                Description rapide du projet, de son objectif et des
+                technologies utilisées.
+              </p>
+              <p class="project-tags">HTML • CSS • JavaScript</p>
+              <a href="https://github.com/ton-compte/ton-projet-1" target="_blank" rel="noopener noreferrer"
+                >Voir sur GitHub</a
+              >
+            </article>
+            <article class="project-card">
+              <h3>Projet 2</h3>
+              <p>
+                Autre projet intéressant, scolaire ou personnel, que tu veux
+                mettre en avant.
+              </p>
+              <p class="project-tags">Technos…</p>
+              <a href="https://github.com/ton-compte/ton-projet-2" target="_blank" rel="noopener noreferrer"
+                >Voir sur GitHub</a
+              >
+            </article>
+            <article class="project-card">
+              <h3>Projet 3</h3>
+              <p>
+                N’hésite pas à ajouter ou retirer des projets en fonction de ton
+                expérience.
+              </p>
+              <p class="project-tags">Technos…</p>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Lien du projet</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>
+            Tu peux me contacter par email ou via mes profils sur les réseaux
+            professionnels.
+          </p>
+          <div class="contact-grid">
+            <div>
+              <ul class="contact-list">
+                <li><span>Email :</span> <a href="mailto:ton.email@example.com">ton.email@example.com</a></li>
+                <li><span>Téléphone :</span> 06 00 00 00 00</li>
+                <li>
+                  <span>LinkedIn :</span>
+                  <a href="https://www.linkedin.com/in/ton-profil" target="_blank" rel="noopener noreferrer"
+                    >linkedin.com/in/ton-profil</a
+                  >
+                </li>
+                <li>
+                  <span>GitHub :</span>
+                  <a href="https://github.com/ton-compte" target="_blank" rel="noopener noreferrer"
+                    >github.com/ton-compte</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Ton Nom. Tous droits réservés.</p>
+        <p>Site statique hébergé sur GitHub Pages.</p>
+      </div>
+    </footer>
+
+    <script>
+      // Affiche automatiquement l'année en cours
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
