@@ -31,7 +31,7 @@ Tu peux simplement ouvrir `index.html` dans ton navigateur (double-clic sur le f
 1. Crée un nouveau dépôt sur GitHub (par exemple `mon-portfolio`).
 2. Dans ce dossier (`github`), initialise Git :
 
-   ```bash
+   ```bash 
    git init
    git remote add origin https://github.com/<ton-compte>/mon-portfolio.git
    git add .
